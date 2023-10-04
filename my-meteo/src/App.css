@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 61px;
+  margin: 50px;
+}
+
+
+input{
+width: 300px;
+border-radius: 15px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7ec5ee;
+}
+
+h2{
+  font-size: xxx-large;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+.feels,
+.humidity,
+.wind
+{
+  margin-right: 25px;
+}
