@@ -2,10 +2,15 @@ import React, { useState } from 'react'
 import '../src/App.css'
 import axios from 'axios'
 import { Icon } from '@iconify/react';
+//require ("dotenv").config();
+
+
+
 
 function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
+  const API_KEY = process.env.REACT_APP_API_KEY
 
   // Construction de l'URL de l'API OpenWeatherMap en utilisant l'emplacement saisi par l'utilisateur
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&lang=fr&appid=f754950ffc5d66b66c09b1c3af302c1b`;
@@ -43,7 +48,7 @@ function App() {
       </div>
       </header>
 
-      
+
       <div className="container">
         <div className="top">
           <div className="location">
