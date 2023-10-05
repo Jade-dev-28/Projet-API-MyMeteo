@@ -1,11 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 .App {
   text-align: center;
 }
 
-.search{
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,33 +20,55 @@
 }
 
 
-input{
-width: 300px;
-border-radius: 15px;
+input {
+  width: 300px;
+  border-radius: 15px;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #7ec5ee;
+header{
+  background: rgb(173,232,244);
+  background: linear-gradient(0deg, rgba(173,232,244,1) 0%, rgba(253,187,45,1) 44%, rgba(251,251,251,1) 94%);
+  height: 200px;
 }
 
-h2{
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ade8f4;
+  height: 360px;
+}
+
+h2 {
   font-size: xxx-large;
   font-family: 'Fira Sans', sans-serif;
 }
 
+h3{
+  font-size: 43px;
+}
 
-.bottom{
+.bottom {
+  text-align: center;
   display: flex;
   flex-direction: row;
 }
 
 .feels,
 .humidity,
-.wind
-{
+.wind {
   margin-right: 25px;
+}
+
+footer{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myMeteo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
